@@ -35,6 +35,7 @@ public class RichTextAreaImplMozilla extends RichTextAreaImplStandard {
   public native void initElement() /*-{
     // Mozilla doesn't allow designMode to be set reliably until the iframe is
     // fully loaded.
+
     var _this = this;
     var iframe = _this.@com.google.gwt.user.client.ui.impl.RichTextAreaImpl::elem;
     _this.@com.google.gwt.user.client.ui.impl.RichTextAreaImplStandard::onElementInitializing()();
